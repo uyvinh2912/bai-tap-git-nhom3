@@ -1,5 +1,5 @@
-def tinh_thue_thu_nhap_2(thu_nhap):
-    # TODO: Cần cập nhật logic tính thuế
-    return 0
+def tinh_diem_gpa(diem_so):
+    # Công thức tuyến tính đơn giản của Dev A
+    return round((diem_so / 10) * 4, 2)
 
-print("Thuế cách 2:", tinh_thue_thu_nhap_2(1000000))
+print("Điểm GPA hệ 4 là:", tinh_diem_gpa(8.5))
