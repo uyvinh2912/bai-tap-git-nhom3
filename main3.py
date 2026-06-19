@@ -5,4 +5,4 @@ def tinh_diem_gpa(diem_so):
         # TAO LOI CO Y: He so 3.5 (dung la 4)
         return round((diem_so / 10) * 3.5, 2)  # ✅ Có indent (4 spaces)
 
-print("Điểm GPA hệ 4 là:", tinh_diem_gpa(7.0))
+print("Điểm GPA hệ 4 là:", tinh_diem_gpa(8.5))
